@@ -1,0 +1,6 @@
+git checkout -- <file-name>
+git checkout -- myfile.txt
+git checkout -
+git checkout --orphan <new-branch-name>
+git checkout --orphan new-branch
+git checkout <branch-name>
