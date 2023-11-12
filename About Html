@@ -1,0 +1,34 @@
+HTML (Hypertext Markup Language) is the standard markup language used to create web pages. HTML documents are structured using a set of elements and tags that define the content and layout of a web page. Here's a basic structure of an HTML document:
+<!DOCTYPE html> <!-- Document Type Declaration -->
+<html> <!-- The root element that contains all other elements -->
+<head> <!-- Contains meta-information about the document -->
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <title>Page Title</title> <!-- Title of the web page, displayed in the browser tab -->
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to an external CSS file -->
+</head>
+<body> <!-- Contains the visible content of the web page -->
+    <header> <!-- Header section (e.g., logo, navigation) -->
+        <h1>Main Heading</h1> <!-- Main heading of the page -->
+    </header>
+    <nav> <!-- Navigation links -->
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main> <!-- Main content of the web page -->
+        <section> <!-- A section of content -->
+            <h2>Section Heading</h2>
+            <p>This is a paragraph of text.</p>
+            <img src="image.jpg" alt="Description of the image"> <!-- Image element with alternative text -->
+        </section>
+    </main>
+    <footer> <!-- Footer section (e.g., copyright information) -->
+        <p>&copy; 2023 Your Website Name</p>
+    </footer>
+</body>
+</html>
+
+
+This is a simplified structure of an HTML document. The <!DOCTYPE html> declaration defines the document type, and the <html> element is the root element that contains all other elements. The <head> section contains meta-information, and the <body> section contains the visible content of the web page, including headers, navigation, main content, and a footer. Inside the <body> section, you can use various HTML elements to structure and style your web page as needed.
