@@ -1,0 +1,54 @@
+CSS pseudo-classes are keywords added to selectors that specify a special state of the selected elements. They allow you to style elements based on various criteria that cannot be expressed with simple selectors. Pseudo-classes are preceded by a colon ":" and can be used to style links, form elements, user interactions, and more.
+
+Here are some common pseudo-classes and their usage:
+
+1. **:hover**: Used to style an element when the user hovers over it with the cursor. For example, changing the color of a link when hovered:
+    ```css
+    a:hover {
+      color: red;
+    }
+    ```
+
+2. **:active**: Styles an element while it's being activated (clicked) by the user. For instance, changing the background color of a button when clicked:
+    ```css
+    button:active {
+      background-color: #f0f0f0;
+    }
+    ```
+
+3. **:focus**: Applies styles to an element when it gains focus. Commonly used for form elements like input fields. For instance, changing the border color of a focused input field:
+    ```css
+    input:focus {
+      border-color: blue;
+    }
+    ```
+
+4. **:nth-child(n)**: Selects elements based on their position in a group of siblings. For example, to style every other row in a table:
+    ```css
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    ```
+
+5. **:first-child, :last-child**: Styles the first or last child element within its parent. For example, styling the first paragraph within a div:
+    ```css
+    div p:first-child {
+      font-weight: bold;
+    }
+    ```
+
+6. **:not(selector)**: Styles elements that do not match a specific selector. For example, applying styles to list items that are not the first item:
+    ```css
+    li:not(:first-child) {
+      color: gray;
+    }
+    ```
+
+7. **:nth-of-type(n)**: Similar to nth-child, but it only selects elements of a specific type (tag name). For instance, styling every third paragraph:
+    ```css
+    p:nth-of-type(3) {
+      font-style: italic;
+    }
+    ```
+
+These are just a few examples of CSS pseudo-classes. Pseudo-classes offer powerful ways to apply styles to elements based on various conditions and states, enhancing the interactivity and visual appeal of web pages.
